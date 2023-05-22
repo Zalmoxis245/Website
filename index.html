@@ -1,134 +1,666 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title>Site title</title>
-      <meta name="description" content="Site description">
-      <!-- Recommended minimum -->
-      <meta property="og:title" content="Hot Beans">
-      <meta property="og:description" content="Coffee">
-      <meta property="og:image" content="img/site-image.jpg">
-      <!-- You could also inline the stylesheet -->
-      <link rel="stylesheet" href="style.css">
-      <script src="javascript.js"></script>
-      <script>
-         window.console = window.console || function (t) { };
-      </script>
-   </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Site title</title>
+    <meta name="description" content="Site description" />
+    <!-- Recommended minimum -->
+    <meta property="og:title" content="Hot Beans" />
+    <meta property="og:description" content="Coffee" />
+    <meta property="og:image" content="img/site-image.jpg" />
+    <!-- You could also inline the stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
+    <script>
+      window.console = window.console || function (t) {};
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  </head>
 
-   <body>
-      <span id="circle" class="circle"></span>
-      <div id="particles-js"></div>
+  <body>
+    <span id="circle" class="circle"></span>
+    <div id="particles-js"></div>
 
-      <header>
-         <h1>
-            <a href="#home">Home</a>
-         </h1>
-         <nav>
-            <a href="#about">About Us</a>
-            <a href="#mot">Meet Our Team</a>
-            <a href="#jobs">Available Jobs</a>
-            <a href="#links">Usefull Links</a>
-            <a href="#join">Join Us!</a>
-         </nav>
-      </header>
+    <header>
+      <h1>
+        <a href="#home">Home</a>
+      </h1>
+      <nav>
+        <a href="#about" onclick="myFunction('particles-js', 1)">About Us</a>
+        <a href="#mot" onclick="myFunction('particles-js', 1)">Meet Our Team</a>
+        <a href="#jobs" onclick="myFunction('particles-js', 1)"
+          >Available Jobs</a
+        >
+        <a href="#links" onclick="myFunction('particles-js', 0)"
+          >Usefull Links</a
+        >
+        <a href="#join" onclick="myFunction('particles-js', 0)">Join Us!</a>
+      </nav>
+    </header>
 
-      <main>
+    <main>
+      <section
+        id="home"
+        style="margin-top: 0; padding-top: 0%; padding-bottom: 0%"
+      >
+        <!-- HOME -->
+        <div
+          style="
+            background-color: rgb(26, 29, 53);
+            width: inherit;
+            height: 100vh;
+            padding-top: 10%;
+            padding-bottom: 0%;
+            margin-top: 0;
+            margin-bottom: 0;
+          "
+        >
+          <h1
+            class="heading-text"
+            style="text-align: center; padding-bottom: 10%"
+          >
+            Hot Beans Web
+          </h1>
+          <div>
+            <h3 style="text-align: center">
+              Welcome to Hot Beans Web, the premier web development company in
+              the industry.
+            </h3>
+            <h3 style="text-align: center; color: lightblue">
+              We specialize in creating innovateive and creative websites that
+              help organizations reach their full potential.
+            </h3>
+            <h3 style="margin-left: 5%; text-align: center; color: lightgreen">
+              With over 10 years of experience in the web development space, our
+              team of highly<br />
+              skilled professionals will help you create a website that you can
+              be proud of.
+            </h3>
+            <h3 style="margin-left: 5%; text-align: center; color: lightcoral">
+              We take pride in our ability to provide our clients with the best
+              possible web design and development experience.
+            </h3>
+            <h3
+              style="margin-left: 5%; text-align: center; color: lightseagreen"
+            >
+              Our team of experts will work with you to create a website that
+              meets your needs and exceeds your expectations.
+            </h3>
+            <h3 style="margin-left: 5%; text-align: center; color: lightyellow">
+              Whether you are looking for a simple website or an advanced
+              e-commerce platform, our team is ready to assist you every step of
+              the way.
+            </h3>
+          </div>
+        </div>
+      </section>
 
-         <section id="home">
-            <!-- HOME -->
-            <div>
-               <p>Welcome to Hot Beans Web, the premier web development company in the industry.</p>
-               <p>We specialize in creating innovateive and creative websites that help organizations reach their full potential.</p>
-               <p>With over 10 years of experience in the web development space, out team of highly skilled professionals will help you create a website that you can be proud of.</p>
-               <p>We take pride in our ability to provide our clients with the best possible web design and development experience.</p>
-               <p>Our team of experts will work with you to create a website that meets your needs and exceeds your expectations.</p>
-               <p>Whether you are looking for a simple website or an advanced e-commerce platform, our team is ready to assist you every step of the way.</p>
+      <section
+        id="about"
+        style="margin-top: 0; padding-top: 0%; padding-bottom: 0%"
+      >
+        <!-- ABOUT US -->
+        <div style="padding-top: 5%">
+          <h1 style="text-align: center">Company overview:</h1>
+          <div style="text-align: center">
+            Hot Beans is a leading web development company that was founded in
+            2010 by a group of experienced developers who shared
+            <br />
+            a passion for creating exceptional websites.The company is
+            headquartered in the heart of Silicon Valley, with additional
+            <br />
+            offices located in New York and London.
+            <br />
+          </div>
+          <br />
+          <br />
+
+          <h1 style="text-align: center">Mission Statement:</h1>
+          <div style="text-align: center">
+            At Hot Beans, our mission is to empower businesses with cutting-edge
+            digital solutions that enhance their online presence,
+            <br />
+            drive growth, and exceed their goals. We are committed to delivering
+            exceptional customer service, innovative technology,
+            <br />
+            and tailored solutions that create value for our clients.
+            <br />
+          </div>
+          <br />
+          <br />
+
+          <h1 style="text-align: center; color: greenyellow">Core Values:</h1>
+          <div class="row" style="color: greenyellow">
+            <div class="column" style="text-align: center">
+              <br />
+              <h3 style="text-align: center">Innovation:</h3>
+              <br />
+              <p style="display: inline-block; margin-left: 4em"></p>
+              We are constantly pushing the boundaries of technology and<br />
+              finding new ways to create value for our clients.
+              <br />
+              <br />
+              <br />
+
+              <h3 style="text-align: center">Quality:</h3>
+              <br />
+              <p style="display: inline-block; margin-left: 4em"></p>
+              We are committed to delivering exceptional quality in everything
+              we do,<br />
+              from the code we write to the customer service we provide.<br />
+              <br />
+              <br />
+              <h3 style="text-align: center">Collaboration:</h3>
+              <br />
+              <p style="display: inline-block; margin-left: 4em"></p>
+              We believe that great things happen when people work together,<br />
+              and we strive to foster a collaborative culture that brings out<br />
+              the best in our team and our clients.<br />
             </div>
-         </section>
-
-         <section id="about">
-            <!-- ABOUT US -->
-            <div>
-               <p>Hot Beans Web was founded in 1999 by a small team of passionate web developers, led by the CEO and founder, </p>
+            <div class="column" style="float: right; text-align: center">
+              <br />
+              <h3 style="text-align: center">Customer Focus:</h3>
+              <br />
+              <p style="display: inline-block; margin-left: 4em"></p>
+              Our clients are at the center of everything we do, and we are
+              dedicated<br />
+              to understanding their unique needs and delivering tailored
+              solutions that<br />
+              exceed their expectations.<br />
+              <br />
+              <br />
+              <h3 style="text-align: center">Integrity:</h3>
+              <br />
+              <p style="display: inline-block; margin-left: 4em"></p>
+              We believe in honesty, transparency, and ethical behavior, and we
+              hold<br />
+              ourselves to the highest standards of integrity in all our
+              dealings with<br />
+              clients, partners, and colleagues.<br />
+              <br />
+              <br />
+              <h3 style="text-align: center">Continuous Improvement:</h3>
+              <br />
+              <p style="display: inline-block; margin-left: 4em"></p>
+              We are constantly learning and growing, and we believe in
+              investing in our<br />
+              team's skills and expertise to stay at the forefront of the
+              industry.<br />
+              <br />
             </div>
-         </section>
+          </div>
+        </div>
+      </section>
 
-         <section id="mot">
-            <!-- MEET OUR TEAM -->
-            <div>
-               <h1>Meet Our Team</h1>
-               <div>
-                  <p>He is somebody</p>
-                  <p>He does this</p>
-               </div>
-               <div>
-                  <p>He is somebody else</p>
-                  <p>He does that</p>
-               </div>
-               <div>
-                  <p>He is somebody else</p>
-                  <p>He does another thing</p>
-               </div>
-               <div>
-                  <p>He is somebody else</p>
-                  <p>He does something else</p>
+      <section
+        id="mot"
+        style="margin-top: 0; padding-top: 0%; padding-bottom: 0%"
+      >
+        <!-- MEET OUR TEAM -->
+        <div style="background-color: #301934; margin: 0">
+          <div class="responsive-container-block outer-container">
+            <div
+              class="responsive-container-block inner-container"
+              style="padding-top: 5em"
+            >
+              <p class="text-blk heading-text">Meet Our Team</p>
+              <p class="text-blk sub-heading-text">
+                 
+              </p>
+              <div class="columnCards" style="justify-content: center">
+                <p class="text-blk name">Dennis Clark</p>
+                <p class="text-blk position">JQuery Developer</p>
+                <img class="team-member-image" src="images/DennisClark.png" />
+                <p
+                  class="text-blk"
+                  style="
+                    max-width: 100%;
+                    margin-top: 20px;
+                    color: rgb(221, 221, 221);
+                  "
+                >
+                  He is one of our most important developers. <br />
+                  Dennis specializes in JQuery but he also works in Babel and
+                  CoffeScript.
+                </p>
+              </div>
+
+              <div
+                class="row responsive-container-block"
+                style="justify-content: center"
+              >
+                <div class="columnCards">
+                  <p class="text-blk name">Jim Weiss</p>
+                  <p class="text-blk position">CEO</p>
+                  <img class="team-member-image" src="images/JimWeiss.jpg" />
+                  <p
+                    class="text-blk"
+                    style="
+                      max-width: 100%;
+                      margin-top: 20px;
+                      color: rgb(221, 221, 221);
+                    "
+                  >
+                    He is the founder of the company.
+                  </p>
+                </div>
+                <div class="columnCards" style="justify-content: center">
+                  <p class="text-blk name">Jennifer Chapman</p>
+                  <p class="text-blk position">Lead Front-End Developer</p>
+                  <img
+                    class="team-member-image"
+                    src="images/JenniferChapman.png"
+                  />
+
+                  <p
+                    class="text-blk"
+                    style="
+                      max-width: 100%;
+                      margin-top: 20px;
+                      color: rgb(221, 221, 221);
+                    "
+                  >
+                    She does most of the things regarding<br />
+                    the front-end of our website.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="jobs" style="margin-top: 0; padding-top: 0%">
+        <!-- AVAILABLE JOBS -->
+        <div style="padding-top: 10%">
+          <p class="text-blk heading-text" style="padding-bottom: 5%">
+            Available Jobs
+          </p>
+          <div class="rowJobs">
+            <div class="columnJobs">
+              <h3 class="text-blk position">Website Designer</h3>
+              <img
+                src="images/WebsiteDesignerImage.png"
+                style="max-width: 100%; max-height: 100%"
+              />
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <p>
+                As a Website Designer, you will be responsible for creating
+                visually appealing and user-friendly website layouts and
+                designs.
+              </p>
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <ul>
+                <li style="margin-bottom: 2%">
+                  Create wireframes, mockups, and prototypes
+                </li>
+                <li style="margin-bottom: 2%">
+                  Collaborate with project managers and developers
+                </li>
+                <li style="margin-bottom: 2%">
+                  Design website layouts, user interfaces, and navigation
+                  structures
+                </li>
+                <li style="margin-bottom: 2%">
+                  Select and customize fonts, colors, graphics, and imagery
+                </li>
+                <li style="margin-bottom: 2%">
+                  Conduct usability testing and gather feedback
+                </li>
+                <li style="margin-bottom: 2%">
+                  Stay up to date with industry trends
+                </li>
+                <li>Communicate effectively with team members</li>
+              </ul>
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <li style="margin-bottom: 2%">
+                Knowledge of Adobe Photoshop, Illustrator and Sketch
+              </li>
+              <li style="margin-bottom: 2%">
+                Strong understanding of user experience (UX) principles and best
+                practices
+              </li>
+              <li style="margin-bottom: 2%">
+                Solid knowledge of typography, color theory, and layout design
+                principles
+              </li>
+              <li style="margin-bottom: 2%">
+                Familiarity with responsive design and mobile-first design
+                approaches
+              </li>
+              <li style="margin-bottom: 2%">
+                Excellent attention to detail and the ability to work
+                collaboratively in a team environment
+              </li>
+              <li style="margin-bottom: 2%">
+                Knowledge of HTML and CSS is a plus, but not required
+              </li>
+              <li>
+                Degree in Design, Fine Arts, or a related field is preferred
+              </li>
+            </div>
+          </div>
+          <div class="rowJobs" style="margin-top: 5%">
+            <div class="columnJobs">
+              <h3 class="text-blk position">Front-End Website Developer</h3>
+              <img
+                src="images/FrontDevImage.png"
+                style="max-width: 100%; max-height: 100%"
+              />
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <p>
+                As a Front-End Website Developer, you will be responsible for
+                translating design concepts into functional and visually
+                appealing web pages.
+              </p>
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <li style="margin-bottom: 2%">
+                Collaborate with the design team to understand website
+                requirements
+              </li>
+              <li style="margin-bottom: 2%">
+                Develop and implement website layouts, user interfaces, and
+                interactive elements
+              </li>
+              <li style="margin-bottom: 2%">
+                Ensure the responsiveness and compatibility of websites across
+                different browsers
+              </li>
+              <li style="margin-bottom: 2%">
+                Optimize website performance and loading speed through efficient
+                coding practices
+              </li>
+              <li style="margin-bottom: 2%">
+                Integrate design assets, graphics, and multimedia elements into
+                web pages
+              </li>
+              <li style="margin-bottom: 2%">
+                Work closely with back-end developers
+              </li>
+              <li>Provide ongoing website maintenance and support</li>
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <li style="margin-bottom: 2%">
+                Proven experience as a Front-End Website Developer
+              </li>
+              <li style="margin-bottom: 2%">
+                Proficiency in front-end web development technologies
+              </li>
+              <li style="margin-bottom: 2%">
+                Strong understanding of responsive web design principles and
+                mobile-first development
+              </li>
+              <li style="margin-bottom: 2%">
+                Experience with front-end frameworks
+              </li>
+              <li style="margin-bottom: 2%">
+                Familiarity with version control systems (e.g., Git) and
+                front-end build tools (e.g., Webpack, Gulp) is a plus
+              </li>
+              <li style="margin-bottom: 2%">
+                Attention to detail and a keen eye for design aesthetics
+              </li>
+              <li>
+                Strong problem-solving skills and the ability to debug and
+                troubleshoot issues effectively
+              </li>
+            </div>
+          </div>
+          <div class="rowJobs" style="margin-top: 5%">
+            <div class="columnJobs">
+              <h3 class="text-blk position">Back-End Website Developer</h3>
+              <img
+                src="images/BackDevImage.png"
+                style="max-width: 100%; max-height: 100%"
+              />
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <p>
+                As a Back-End Website Developer, you will be responsible for
+                building and maintaining the server-side logic and database
+                functionality for our website
+              </p>
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <li>
+                Collaborate with the development team to understand website
+                requirements
+              </li>
+              <li>Develop and maintain server-side logic and functionality</li>
+              <li>
+                Build and optimize database structures, queries, and
+                interactions using database management systems
+              </li>
+              <li>
+                Integrate third-party APIs, services, and frameworks as needed
+                for website functionality
+              </li>
+              <li>
+                Ensure data security, privacy, and protection measures are in
+                place
+              </li>
+              <li>
+                Perform thorough testing and debugging to identify and fix
+                issues
+              </li>
+              <li>
+                Optimize website performance and scalability by implementing
+                caching mechanisms, code optimization, and database indexing
+              </li>
+            </div>
+            <div
+              class="columnJobs"
+              style="
+                margin-top: 4%;
+                margin-left: 2%;
+                margin-right: 2%;
+                color: rgb(221, 221, 221);
+                text-align: center;
+              "
+            >
+              <li>Proven experience as a Back-End Website Developer</li>
+              <li>
+                Proficiency in back-end web development languages such as PHP
+                and Python
+              </li>
+              <li>Strong understanding of database management systems</li>
+              <li>Experience in API development and integration</li>
+              <li>
+                Knowledge of front-end web technologies (HTML, CSS, JavaScript)
+              </li>
+              <li>
+                Familiarity with version control systems (e.g., Git) and
+                deployment processes
+              </li>
+              <li>
+                Solid understanding of web security best practices and common
+                vulnerabilities
+              </li>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <section id="links">
+        <!-- USEFUL LINKS -->
+
+        <div class="Links">
+          <div class="row">
+            <div class="columnCards">
+               <div class="linksCards" onclick="linkTo('https://www.w3schools.com/')" style="background-image: url(images/HTML&CSS.png);background-repeat: no-repeat;background-size: cover;background-position: center;">
+                  <Course style="color: yellow;">HTML and CSS Courses</Course>
                </div>
             </div>
-         </section>
-
-         <section id="jobs">
-            <!-- AVAILABLE JOBS -->
-            <div>
-               <h2>Available Jobs</h2>
-               <div>
-                  <h3>Website Designer</h3>
-                  <p>Insert description here</p>
-                  <p>Here should be an unordered list with the skills and certifications required for this job</p>
-                  <p>Here should be an unordered list with the optional but helpful abilities which would help them to get the job</p>
-               </div>
-               <div>
-                  <h3>Front-End Website Developer</h3>
-                  <p>Insert description here</p>
-                  <p>Here should be an unordered list with the skills and certifications required for this job</p>
-                  <p>Here should be an unordered list with the optional but helpful abilities which would help them to get the job</p>
-               </div>
-               <div>
-                  <h3>Back-End Website Developer</h3>
-                  <p>Insert description here</p>
-                  <p>Here should be an unordered list with the skills and certifications required for this job</p>
-                  <p>Here should be an unordered list with the optional but helpful abilities which would help them to get the job</p>
-               </div>
-               <div>
-                  <h3>Janitor</h3>
-                  <p>Insert description here</p>
-                  <p>Here should be an unordered list with the skills and certifications required for this job</p>
-                  <p>Here should be an unordered list with the optional but helpful abilities which would help them to get the job</p>
+            <div class="columnCards">
+               <div class="linksCards" onclick="linkTo('https://mojs.github.io/')" style="background-image: url(images/Animations.png);background-repeat: no-repeat;background-size: cover;background-position: center;">
+                  <Course>Animation Courses</Course>
                </div>
             </div>
-         </section>
-
-         <section id="links">
-            <!-- USEFUL LINKS -->
-            <div>
-               <p>Links</p>
+            <div class="columnCards">
+               <div class="linksCards" onclick="linkTo('https://www.udemy.com/course/php-for-complete-beginners-includes-msql-object-oriented/')" style="background-image: url(images/php-image.jpg);background-repeat: no-repeat;background-size: cover;">
+                  <Course>PHP Course</Course>
+               </div>
             </div>
-         </section>
-
-         <section id="join">
-            <!-- JOIN US -->
-            <div>
-               <p>SMTH</p>
+          </div>
+          <div class="row">
+            <div class="columnCards">
+               <div class="linksCards" onclick="linkTo('https://codefinity.com/courses/v2/515d0daa-521e-42b6-8924-7df40da6d6ac')" style="background-image: url(images/JS.png);background-repeat: no-repeat;background-size: cover;background-position: center;"> 
+                  <Course style="color: red;">JavaScript Course</Course>
+               </div>
             </div>
-         </section>
+            <div class="columnCards">
+               <div class="linksCards" onclick="linkTo('https://www.codecademy.com/learn/intro-to-ui-ux')" style="background-image: url(images/UI&UX.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;">
+                  <Course style="color: black;">UI/UX Design Course</Course>
+               </div>
+            </div>
+            <div class="columnCards">
+               <div class="linksCards" onclick="linkTo('https://www.pluralsight.com/courses/cg101-graphic-design-721?utm_source=google&utm_medium=paid-search&utm_campaign=upskilling-and-reskilling&utm_term=ssi-emea-uk-dynamic&utm_content=free-trial&gclid=CjwKCAjwgqejBhBAEiwAuWHioF7Bm0PS334quGcXy7xpfkL76E8QXzAywZG2kRYnPeNRiOJ0_yxWXBoCO3UQAvD_BwE')" style="background-image: url(images/graphicDesign.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;">
+                  <Course style="color: black;">Graphics Design</Course>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      </main>
+      <section id="join">
+        <!-- JOIN US -->
+        <div style="position: relative; height: 50vh">
+          <h1 class="heading-text" style="text-align: center">Join Us</h1>
+          <div class="Contact" style="position: absolute; top: 30%; left: 28%">
+            <div class="text-input" style="height: max-content">
+              <input type="text" placeholder="Full Name" />
+            </div>
+            <div class="text-input" style="margin-top: 3%">
+              <input id="phone" type="tel" placeholder="Phone Number" />
+            </div>
+            <div class="text-input">
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="CV">
+              <input id="file-upload" type="file" style="display: none" />
+              <input
+                type="button"
+                value="Upload Your CV"
+                onclick="document.getElementById('file-upload').click();"
+                class="custom-file-upload"
+                style="font-family: Arial"
+              />
+            </div>
+            <textarea class="message" placeholder="Message"></textarea>
+            <div class="button">
+              <button type="button">Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <!-- Ball -->
-      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js'></script>
-      <script src='https://github.com/VincentGarreau/particles.js'></script>
-      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <script src="./javascript.js"></script>
-   </body>
+    <!-- Ball -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://github.com/VincentGarreau/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./javascript.js"></script>
+  </body>
+  <script>
+    stringChoice = "";
+    function myFunction(name, choice) {
+      if (choice == 0) {
+        stringChoice = "none";
+      } else {
+        stringChoice = "all";
+      }
+      document.getElementById(name).style.pointerEvents = stringChoice;
+    }
+    function linkTo(url){
+      window.open(url, "_blank");
+    }
+    window.onload = () => {
+      if (window.location.hash == "#join" || window.location.hash == "#links") {
+        document.getElementById("particles-js").style.pointerEvents = "none";
+      }
+    };
+  </script>
 </html>
